@@ -1,0 +1,10 @@
+# LLM 调用（兼容 OpenAI 协议：OpenAI/通义/豆包/DeepSeek/Ollama 均可）
+openai>=1.30.0
+# 读取 .env 配置
+python-dotenv>=1.0.0
+# 每小时定时调度
+apscheduler>=3.10.0
+# 数据结构校验
+pydantic>=2.6.0
+# HTTP 请求（以后接真实数据用）
+requests>=2.31.0

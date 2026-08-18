@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Environment secrets
+.env
+
+# Database (runtime generated, can be rebuilt)
+data/monitor.db
+data/*.bak.*
+data/*_backup*
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
